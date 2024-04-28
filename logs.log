@@ -1,0 +1,1319 @@
+2024-04-28 18:53:27,794 - __main__ - INFO - Connection has been successfully opened with wss://stream.binance.com:9443/ws/btcusdt@kline_5m/btcusdt@depth
+2024-04-28 19:13:47,334 - __main__ - INFO - Connection has been successfully opened with wss://stream.binance.com:9443/ws/btcusdt@kline_5m/btcusdt@depth
+2024-04-28 19:14:14,172 - __main__ - INFO - Connection has been successfully opened with wss://stream.binance.com:9443/ws/btcusdt@kline_5m/btcusdt@depth
+2024-04-28 19:15:30,370 - __main__ - INFO - Connection has been successfully opened with wss://stream.binance.com:9443/ws/btcusdt@kline_5m/btcusdt@depth
+2024-04-28 19:16:25,281 - __main__ - INFO - Connection has been successfully opened with wss://stream.binance.com:9443/ws/btcusdt@kline_5m/btcusdt@depth
+2024-04-28 19:17:04,875 - __main__ - INFO - Connection has been successfully opened with wss://stream.binance.com:9443/ws/btcusdt@kline_5m/btcusdt@depth
+2024-04-28 19:17:43,473 - __main__ - INFO - Connection has been successfully opened with wss://stream.binance.com:9443/ws/btcusdt@kline_5m/btcusdt@depth
+2024-04-28 19:20:37,064 - __main__ - INFO - Connection has been successfully opened with wss://stream.binance.com:9443/ws/btcusdt@kline_5m/btcusdt@depth
+2024-04-28 19:24:52,172 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<message_consumer() done, defined at /Users/junyang/aures-test/question2.py:99> exception=NameError("name 'queue' is not defined")>
+Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 101, in message_consumer
+    print(queue)
+          ^^^^^
+NameError: name 'queue' is not defined
+2024-04-28 19:24:52,611 - __main__ - INFO - Connection has been successfully opened with wss://stream.binance.com:9443/ws/btcusdt@kline_5m/btcusdt@depth
+2024-04-28 19:25:02,483 - __main__ - INFO - Connection has been successfully opened with wss://stream.binance.com:9443/ws/btcusdt@kline_5m/btcusdt@depth
+2024-04-28 19:26:21,502 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<message_consumer() done, defined at /Users/junyang/aures-test/question2.py:99> exception=NameError("name 'queue' is not defined")>
+Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 101, in message_consumer
+    print(queue._queue)
+          ^^^^^
+NameError: name 'queue' is not defined
+2024-04-28 19:26:21,917 - __main__ - INFO - Connection has been successfully opened with wss://stream.binance.com:9443/ws/btcusdt@kline_5m/btcusdt@depth
+2024-04-28 19:27:25,369 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<message_consumer() done, defined at /Users/junyang/aures-test/question2.py:99> exception=NameError("name 'queue' is not defined")>
+Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 101, in message_consumer
+    print(queue._queue)
+          ^^^^^
+NameError: name 'queue' is not defined
+2024-04-28 19:27:25,688 - __main__ - INFO - Connection has been successfully opened with wss://stream.binance.com:9443/ws/btcusdt@kline_5m/btcusdt@depth
+2024-04-28 19:28:55,105 - __main__ - INFO - Connection has been successfully opened with wss://stream.binance.com:9443/ws/btcusdt@kline_5m/btcusdt@depth
+2024-04-28 19:29:39,225 - __main__ - INFO - Connection has been successfully opened with wss://stream.binance.com:9443/ws/btcusdt@kline_5m/btcusdt@depth
+2024-04-28 19:33:19,744 - __main__ - INFO - Connection has been successfully opened with wss://stream.binance.com:9443/ws/btcusdt@kline_5m/btcusdt@depth
+2024-04-28 20:04:04,079 - __main__ - INFO - Connection has been successfully opened with wss://stream.binance.com:9443/ws/btcusdt@kline_5m/btcusdt@depth
+2024-04-28 20:20:14,331 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-3' coro=<message_consumer_depth() done, defined at /Users/junyang/aures-test/question2.py:117> exception=NameError("name 'uri_depth' is not defined")>
+Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 119, in message_consumer_depth
+    async with websockets.connect(uri_depth) as ws:
+                                  ^^^^^^^^^
+NameError: name 'uri_depth' is not defined
+2024-04-28 20:21:53,556 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<message_consumer_kline() done, defined at /Users/junyang/aures-test/question2.py:103> exception=AttributeError("'Connect' object has no attribute 'recv'")>
+Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 106, in message_consumer_kline
+    print(ws.recv() )
+          ^^^^^^^
+AttributeError: 'Connect' object has no attribute 'recv'
+2024-04-28 20:22:06,383 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<message_consumer_kline() done, defined at /Users/junyang/aures-test/question2.py:103> exception=AttributeError("'Connect' object has no attribute 'recv'")>
+Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 106, in message_consumer_kline
+    print(await ws.recv() )
+                ^^^^^^^
+AttributeError: 'Connect' object has no attribute 'recv'
+2024-04-28 20:26:22,676 - __main__ - INFO - Connection has been successfully opened with wss://stream.binance.com:9443/ws/btcusdt@kline_5m/btcusdt@depth
+2024-04-28 20:26:23,489 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<message_consumer() done, defined at /Users/junyang/aures-test/question2.py:99> exception=KeyError('b')>
+Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 102, in message_consumer
+    await handle_message(message)
+  File "/Users/junyang/aures-test/question2.py", line 59, in handle_message
+    best_bid = float(data['b'][0][0])
+                     ~~~~^^^^^
+KeyError: 'b'
+2024-04-28 20:27:46,523 - __main__ - INFO - Connection has been successfully opened with wss://stream.binance.com:9443/ws/btcusdt@kline_5m/btcusdt@depth
+2024-04-28 20:28:51,250 - __main__ - INFO - Connection to Klines has been successfully opened
+2024-04-28 20:28:51,251 - __main__ - INFO - Connection to Depth has been successfully opened
+2024-04-28 20:31:45,038 - __main__ - INFO - Connection has been closed
+2024-04-28 20:40:08,000 - __main__ - INFO - Connection to Depth has been successfully opened
+2024-04-28 20:40:08,000 - __main__ - INFO - Connection to Klines has been successfully opened
+2024-04-28 20:44:07,648 - __main__ - INFO - Connection to Klines has been successfully opened
+2024-04-28 20:44:07,650 - __main__ - INFO - Connection to Depth has been successfully opened
+2024-04-28 20:44:47,051 - __main__ - INFO - Connection to Klines has been successfully opened
+2024-04-28 20:44:47,060 - __main__ - INFO - Connection to Depth has been successfully opened
+2024-04-28 20:45:21,782 - __main__ - INFO - Connection to Depth has been successfully opened
+2024-04-28 20:45:21,782 - __main__ - INFO - Connection to Klines has been successfully opened
+2024-04-28 20:47:30,339 - __main__ - INFO - Connection to Depth has been successfully opened
+2024-04-28 20:47:30,349 - __main__ - INFO - Connection to Klines has been successfully opened
+2024-04-28 20:51:53,062 - __main__ - INFO - Connection to Klines has been successfully opened
+2024-04-28 20:51:53,065 - __main__ - INFO - Connection to Depth has been successfully opened
+2024-04-28 20:51:59,028 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:00,029 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:01,031 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:02,029 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:03,031 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:04,032 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:05,033 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:06,030 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:07,031 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:08,031 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:09,031 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:10,032 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:11,028 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:12,028 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:13,027 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:14,041 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:15,029 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:16,030 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:17,029 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:18,031 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:19,029 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:20,030 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:21,105 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:22,026 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:23,028 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:24,030 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:25,027 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:26,029 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:27,030 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:28,029 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:29,028 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:30,028 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:31,033 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:32,063 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:33,029 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:34,030 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:35,028 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:36,031 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:37,030 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:38,031 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:39,033 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:40,027 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:41,030 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:42,098 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:43,026 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:44,027 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:45,027 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:46,027 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:47,032 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:48,031 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:49,029 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:50,032 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:51,028 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:52,027 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:53,028 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:54,029 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:55,029 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:56,032 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:57,028 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:58,031 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:52:59,029 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:00,030 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:01,027 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:02,045 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:03,032 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:04,031 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:05,032 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:06,028 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:07,028 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:08,028 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:09,029 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:10,028 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:11,027 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:12,029 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:13,031 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+       ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:14,029 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+       ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:15,030 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+       ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:16,030 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+       ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:17,033 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+       ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:18,031 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+       ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:19,026 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+       ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:20,026 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+       ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:21,027 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:22,028 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:23,028 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:24,031 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:25,105 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:26,030 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:27,029 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:28,029 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:29,102 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    await message_handler(message)
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    sma = calculate_sma()
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    return sma
+           ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:30,032 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    message = await ws.recv()
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    sma = sma_values[-1] + (new_value - removed_value) / sma_period
+       ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:31,044 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    message = await ws.recv()
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    sma = sma_values[-1] + (new_value - removed_value) / sma_period
+       ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:32,030 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    message = await ws.recv()
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    sma = sma_values[-1] + (new_value - removed_value) / sma_period
+       ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:33,028 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    message = await ws.recv()
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    sma = sma_values[-1] + (new_value - removed_value) / sma_period
+       ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:34,030 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    message = await ws.recv()
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    sma = sma_values[-1] + (new_value - removed_value) / sma_period
+       ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:35,030 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    message = await ws.recv()
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    sma = sma_values[-1] + (new_value - removed_value) / sma_period
+       ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:36,032 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    message = await ws.recv()
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    sma = sma_values[-1] + (new_value - removed_value) / sma_period
+       ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:37,028 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    message = await ws.recv()
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    sma = sma_values[-1] + (new_value - removed_value) / sma_period
+       ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:38,111 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    message = await ws.recv()
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    sma = sma_values[-1] + (new_value - removed_value) / sma_period
+       ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:39,033 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    message = await ws.recv()
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    sma = sma_values[-1] + (new_value - removed_value) / sma_period
+       ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:40,029 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    message = await ws.recv()
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    sma = sma_values[-1] + (new_value - removed_value) / sma_period
+       ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:41,027 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    message = await ws.recv()
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    sma = sma_values[-1] + (new_value - removed_value) / sma_period
+       ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:42,029 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    message = await ws.recv()
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    sma = sma_values[-1] + (new_value - removed_value) / sma_period
+       ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:43,045 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    message = await ws.recv()
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    sma = sma_values[-1] + (new_value - removed_value) / sma_period
+       ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:44,151 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    message = await ws.recv()
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    sma = sma_values[-1] + (new_value - removed_value) / sma_period
+       ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:45,027 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    message = await ws.recv()
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    sma = sma_values[-1] + (new_value - removed_value) / sma_period
+       ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:46,028 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    try:
+        ^
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    closing_prices.append(float(data['k']['c']))
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    new_value = closing_prices[end]
+       ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:47,121 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    try:
+        ^
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    closing_prices.append(float(data['k']['c']))
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    new_value = closing_prices[end]
+       ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:48,029 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/junyang/aures-test/question2.py", line 109, in connect_and_receive
+    try:
+        ^
+  File "/Users/junyang/aures-test/question2.py", line 55, in handle_message_klines
+    closing_prices.append(float(data['k']['c']))
+          ^^^^^^^^^^^^^^^
+  File "/Users/junyang/aures-test/question2.py", line 40, in calculate_sma
+    new_value = closing_prices[end]
+       ^^^
+UnboundLocalError: cannot access local variable 'sma' where it is not associated with a value
+
+2024-04-28 20:53:50,780 - __main__ - INFO - Connection to Depth has been successfully opened
+2024-04-28 20:53:50,795 - __main__ - INFO - Connection to Klines has been successfully opened
+2024-04-28 20:55:22,257 - __main__ - INFO - Connection to Depth has been successfully opened
+2024-04-28 20:55:22,509 - __main__ - INFO - Connection to Klines has been successfully opened
+2024-04-28 20:55:58,220 - __main__ - INFO - Connection to Klines has been successfully opened
+2024-04-28 20:55:58,220 - __main__ - INFO - Connection to Depth has been successfully opened
+2024-04-28 20:56:11,945 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-9' coro=<WebSocketCommonProtocol.close_connection() running at /opt/homebrew/lib/python3.11/site-packages/websockets/legacy/protocol.py:1311> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at /opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py:898, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py:754, shield.<locals>._inner_done_callback() at /opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py:881]>
+2024-04-28 20:56:11,946 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-6' coro=<WebSocketCommonProtocol.close_connection() running at /opt/homebrew/lib/python3.11/site-packages/websockets/legacy/protocol.py:1337> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at /opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py:898, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py:754]>
+2024-04-28 20:56:11,946 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-3' coro=<connect_and_receive() running at /Users/junyang/aures-test/question2.py:106> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at /opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py:898, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py:754, gather.<locals>._done_callback() at /opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py:754]>
+2024-04-28 21:13:11,885 - __main__ - INFO - Connection to Depth has been successfully opened
+2024-04-28 21:13:11,886 - __main__ - INFO - Connection to Klines has been successfully opened
+2024-04-28 21:15:04,945 - __main__ - INFO - Connection to Depth has been successfully opened
+2024-04-28 21:15:04,949 - __main__ - INFO - Connection to Klines has been successfully opened
+2024-04-28 21:15:24,463 - __main__ - INFO - Connection to Klines has been successfully opened
+2024-04-28 21:15:24,490 - __main__ - INFO - Connection to Depth has been successfully opened
+2024-04-28 21:15:51,786 - __main__ - INFO - Connection to Klines has been successfully opened
+2024-04-28 21:15:51,787 - __main__ - INFO - Connection to Depth has been successfully opened
+2024-04-28 21:17:08,243 - __main__ - INFO - Connection to Klines has been successfully opened
+2024-04-28 21:17:08,248 - __main__ - INFO - Connection to Depth has been successfully opened
+2024-04-28 21:17:46,525 - __main__ - INFO - Connection to Depth has been successfully opened
+2024-04-28 21:17:46,544 - __main__ - INFO - Connection to Klines has been successfully opened
+2024-04-28 21:18:42,058 - __main__ - INFO - Connection to Klines has been successfully opened
+2024-04-28 21:18:42,066 - __main__ - INFO - Connection to Depth has been successfully opened
+2024-04-28 21:20:31,829 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-2' coro=<connect_and_receive() running at /Users/junyang/aures-test/question2.py:98> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at /opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py:898, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py:754, gather.<locals>._done_callback() at /opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py:754]>
+2024-04-28 21:20:31,829 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-3' coro=<connect_and_receive() running at /Users/junyang/aures-test/question2.py:98> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at /opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py:898, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py:754, gather.<locals>._done_callback() at /opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py:754]>
+2024-04-28 21:20:31,829 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<main() done, defined at /Users/junyang/aures-test/question2.py:92> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py:754]>
+2024-04-28 21:20:31,830 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-9' coro=<WebSocketCommonProtocol.close_connection() running at /opt/homebrew/lib/python3.11/site-packages/websockets/legacy/protocol.py:1311> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at /opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py:898, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py:754, shield.<locals>._inner_done_callback() at /opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py:881]>
+2024-04-28 21:20:31,830 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-6' coro=<WebSocketCommonProtocol.close_connection() running at /opt/homebrew/lib/python3.11/site-packages/websockets/legacy/protocol.py:1311> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at /opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py:898, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py:754, shield.<locals>._inner_done_callback() at /opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py:881]>
+2024-04-28 21:20:33,457 - __main__ - INFO - Connection to Depth has been successfully opened
+2024-04-28 21:20:33,480 - __main__ - INFO - Connection to Klines has been successfully opened
+2024-04-28 21:22:51,896 - __main__ - INFO - Connection to Depth has been successfully opened
+2024-04-28 21:22:51,902 - __main__ - INFO - Connection to Klines has been successfully opened
+2024-04-28 21:23:55,480 - __main__ - INFO - Connection to Depth has been successfully opened
+2024-04-28 21:23:55,496 - __main__ - INFO - Connection to Klines has been successfully opened
+2024-04-28 21:24:30,166 - __main__ - INFO - Connection to Klines has been successfully opened
+2024-04-28 21:24:30,180 - __main__ - INFO - Connection to Depth has been successfully opened
+2024-04-28 21:25:20,650 - __main__ - INFO - Connection to Depth has been successfully opened
+2024-04-28 21:25:20,668 - __main__ - INFO - Connection to Klines has been successfully opened
+2024-04-28 21:26:00,477 - __main__ - INFO - Connection to Depth has been successfully opened
+2024-04-28 21:26:00,479 - __main__ - INFO - Connection to Klines has been successfully opened
+2024-04-28 21:27:33,892 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-9' coro=<WebSocketCommonProtocol.close_connection() running at /opt/homebrew/lib/python3.11/site-packages/websockets/legacy/protocol.py:1337> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at /opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py:898, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py:754]>
+2024-04-28 21:27:33,892 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-6' coro=<WebSocketCommonProtocol.close_connection() running at /opt/homebrew/lib/python3.11/site-packages/websockets/legacy/protocol.py:1337> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at /opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py:898, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py:754]>
+2024-04-28 21:27:35,656 - __main__ - INFO - Connection to Depth has been successfully opened
+2024-04-28 21:27:35,659 - __main__ - INFO - Connection to Klines has been successfully opened
